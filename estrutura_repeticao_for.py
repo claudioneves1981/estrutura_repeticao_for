@@ -6,3 +6,7 @@ for letra in texto:
 else:
     print()
     print("Executa no final do laço")
+
+#Exemplo utilizando a função built-in range
+for numero in range(0,51,5):
+    print(numero, end=" ")
