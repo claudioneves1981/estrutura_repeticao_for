@@ -1,5 +1,7 @@
 texto = input("informe um texto:")
 VOGAIS = "AEIOU"
+
+#Exemplo utilizado um iteravel
 for letra in texto:
     if letra.upper() in VOGAIS:
         print(letra, end="")
